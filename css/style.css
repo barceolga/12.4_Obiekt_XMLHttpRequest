@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #FFC371;
+}
+
+body .button-joke {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  padding: 13px;
+  font-weight: 700;
+  font-family: monospace;
+  color: #FFD091;
+  background-color: #020053;
+  border: none;
+  border-radius: 5%;
+  margin-top: 250px;
+  transition: 1s linear;
+}
+
+body .button-joke:hover {
+  color: #844C00;
+  background-color: #8F8DDF;
+}
+
+body .paragraph-joke {
+  margin: 50px 50px 0 50px;
+  font-size: 24px;
+  padding: 13px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #020053;
+}
+/*# sourceMappingURL=style.css.map */
